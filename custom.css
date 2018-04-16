@@ -2,7 +2,7 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background-color: lightblue;
+  background-color: aqua;
   /*background: <img src="balloon1.jpg" class="img-rounded img-responsive">*/
 }
 
@@ -39,7 +39,7 @@ h2 {
 
 
 #contact {
-  background: lightgreen;
+  background: silver;
   color: black;
   display: table;
   font-size: 1.5em;
@@ -47,19 +47,19 @@ h2 {
 }
 
 #testimonials {
-  background: lightgreen;
+  background: silver;
   border-radius: 25px;
 }
 
 #test {
   color: black;
   font-size: 25px;
-  background-color: lightblue;
+  background-color: aqua;
 }
 
 #copy {
   font-family: 'Lobster', cursive;
-  background-color:  lightgreen;
+  background-color:  silver;
   color: white;
   text-align: center;
   padding-top: 15px;
@@ -77,18 +77,18 @@ h2 {
 }
 
 .jumbotron {
-  background-color: lightgreen;
+  background-color: silver;
   color: black;
 }
 
 .card {
-  background-color: lightgreen;
+  background-color: silver;
 }
 
 .topic {
   text-align: center;
   font-size: 37px;
-  background-color: lightgreen;
+  background-color: silver;
 }
 
 
