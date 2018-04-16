@@ -1,0 +1,111 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: lightblue;
+  /*background: <img src="balloon1.jpg" class="img-rounded img-responsive">*/
+}
+
+#title {
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.heading {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  color: white;
+}
+
+h1 {
+  font-size: 85px;
+  color: black;
+}
+
+h2 {
+  
+  font-size: 40px;
+}
+
+
+.container {
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 25px;
+}
+
+
+#contact {
+  background: lightgreen;
+  color: black;
+  display: table;
+  font-size: 1.5em;
+  border-radius: 25px;
+}
+
+#testimonials {
+  background: lightgreen;
+  border-radius: 25px;
+}
+
+#test {
+  color: black;
+  font-size: 25px;
+  background-color: lightblue;
+}
+
+#copy {
+  font-family: 'Lobster', cursive;
+  background-color:  lightgreen;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.row {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  background-color: lightgreen;
+  color: black;
+}
+
+.card {
+  background-color: lightgreen;
+}
+
+.topic {
+  text-align: center;
+  font-size: 37px;
+  background-color: lightgreen;
+}
+
+
+@media(min-width:768px) {
+  h1 {
+    font-size: 85px;
+  }
+}
+
+@media(min-width:992px) {
+  h1 {
+    font-size: 92px;
+  }
+}
+
+@media(min-width:1200px) {
+  h1 {
+    font-size: 97px;
+  }
+}
