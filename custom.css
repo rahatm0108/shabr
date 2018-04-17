@@ -103,12 +103,12 @@ h2 {
 
 @media(min-width:992px) {
   h1 {
-    font-size: 92px;
+    font-size: 100px;
   }
 }
 
 @media(min-width:1200px) {
   h1 {
-    font-size: 97px;
+    font-size: 115px;
   }
 }
