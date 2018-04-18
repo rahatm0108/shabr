@@ -2,32 +2,36 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background-color: aqua;
-  /*background: <img src="balloon1.jpg" class="img-rounded img-responsive">*/
+  background-color: #043746;
 }
 
-#title {
-  display: table;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-}
+  #title {
+            display: table;
+            width: 100%;
+            height: 100%;
+            background: url('img/balloon-1.jpg') no-repeat center;
+            background-size: cover;
+            font-family:cursive;
+        }
 
 .heading {
   text-align: center;
   vertical-align: middle;
   display: table-cell;
   color: white;
+  
 }
 
 h1 {
-  font-size: 85px;
+  text-align: center;
+  font-size: 60px;
   color: black;
 }
 
 h2 {
-  
-  font-size: 40px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
 }
 
 
@@ -49,22 +53,17 @@ h2 {
 #testimonials {
   background: silver;
   border-radius: 25px;
+  font-family: fantasy;
 }
 
 #test {
   color: black;
   font-size: 25px;
-  background-color: aqua;
+  background-color: #043746;
 }
 
-#copy {
-  font-family: 'Lobster', cursive;
-  background-color:  silver;
-  color: white;
-  text-align: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
+
+
 #table{
   background: silver;
 }
@@ -84,20 +83,27 @@ h2 {
   color: black;
 }
 
-.card {
-  background-color: silver;
-}
 
 .topic {
   text-align: center;
-  font-size: 37px;
+  font-size: 50px;
   background-color: silver;
 }
 
+.info{
+  text-align: center;
+  font-size: 50px;
+}
 
+.well{
+   background-color: red;
+}
 @media(min-width:768px) {
   h1 {
     font-size: 85px;
+  }
+    h2 {
+    font-size: 55px;
   }
 }
 
@@ -105,10 +111,16 @@ h2 {
   h1 {
     font-size: 100px;
   }
+    h2 {
+    font-size: 70px;
+  }
 }
 
 @media(min-width:1200px) {
   h1 {
     font-size: 115px;
+  }
+    h2 {
+    font-size: 85px;
   }
 }
